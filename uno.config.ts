@@ -4,7 +4,9 @@ import presetIcons from "@unocss/preset-icons";
 
 export default defineConfig({
 	presets: [
-		presetWind4(),
+		presetWind4({
+			color: { mode: "rgb" },
+		}),
 		presetIcons({
 			extraProperties: {
 				display: "inline-block",
@@ -12,4 +14,15 @@ export default defineConfig({
 			},
 		}),
 	],
+	theme: {
+		extend: {
+			keyframes: {
+				marquee:
+					"{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}",
+			},
+			animation: {
+				marquee: "marquee 40s linear infinite",
+			},
+		},
+	},
 });
