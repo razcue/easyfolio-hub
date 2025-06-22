@@ -1,5 +1,6 @@
 <script setup>
 import { useTheme } from "@/composables/useTheme";
+import RoadmapSection from "~/components/RoadmapSection.vue";
 
 const { setTheme } = useTheme();
 
@@ -21,6 +22,7 @@ onMounted(() => {
 			</HeroSuper>
 			<HeroSection />
 			<HowToUse />
+      <RoadmapSection />
 			<TheActions />
 		</main>
 		<Footer />

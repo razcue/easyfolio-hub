@@ -1,0 +1,19 @@
+{
+  "projectName": "EasyFolio Hub",
+  "projectShortName": "EasyFolio",
+  "description": "EasyFolio Hub makes it simple for anyone to create a stunning, personalized portfolio or CV website—no technical know-how required. Just fill out a straightforward form with your information, and EasyFolio Hub takes care of the rest, instantly generating your professional site using the same high-quality components found in [EasyFolio Template](https://github.com/razcue/easyfolio-template).\n\nEasyFolio Hub is designed as a zero-cost infrastructure, source-available, and community-driven platform; built with a mobile-first, fully responsive design, ensuring a great experience across all devices. All features run on free and open-source tools, with Vercel for hosting and GitHub as the data layer. The platform requires no custom backend or proprietary APIs: all logic, storage, and authentication are handled by GitHub Actions and the GitHub API. Authentication secrets are stored in a private GitHub repository—not on third-party servers.",
+  "shortDescription": "EasyFolio Hub enables professionals and creators to easily build personalized portfolio or CV websites on a modern, source-available platform powered by GitHub’s secure infrastructure—no technical know-how required.",
+  "hubRepoUrl": "https://github.com/razcue/easyfolio-hub",
+  "templateRepoUrl": "https://github.com/razcue/easyfolio-template",
+  "templateRepoName": "EasyFolio Template",
+  "features": [
+    "No coding required—just fill out a simple form to create your site.",
+    "Instant portfolio and CV site generation using reusable, high-quality source-available components.",
+    "Mobile-first, fully responsive design for a great experience on any device.",
+    "All portfolio data stored securely on GitHub.",
+    "No custom backend: powered entirely by GitHub Actions and the GitHub API.",
+    "Authentication secrets are stored in a private GitHub repository—not on any third-party servers.",
+    "Hosted for free on Vercel, with all logic and storage in source-available projects."
+  ],
+  "footer": "Made with ❤️ by the EasyFolio community."
+}

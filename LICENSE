@@ -1,0 +1,50 @@
+EASYFOLIO HUB CUSTOM LICENSE
+============================
+
+This license governs the use of the EasyFolio Hub codebase and related materials (the “Software”). Please read it carefully before using, contributing to, or interacting with the Software.
+
+---
+
+## 1. Grant of Permission
+
+- The source code of EasyFolio Hub is publicly available for transparency, review, and collaborative contribution.
+- You may use the official EasyFolio Hub platform as a service, submit issues, contribute improvements, and participate in the community.
+
+## 2. Restrictions
+
+- You are **not permitted** to:
+  - Copy, reproduce, or redistribute the Software, in whole or in part, except for submitting contributions or reviews to the official repository.
+  - Modify, fork, create derivative works, or host your own version of the Software or its codebase.
+  - Use the Software, in whole or in part, for any personal or commercial purposes outside of the official EasyFolio platform, unless you have received explicit, written permission from the copyright holder.
+
+- You may:
+  - View, review, and suggest improvements to the Software via the official repository.
+  - Submit contributions (pull requests, issues, documentation) in accordance with the official contribution guidelines.
+
+## 3. Commercial Use
+
+- Any commercial exploitation, including offering the Software as a service or product, is strictly prohibited without explicit, written consent from the copyright holder.
+
+## 4. Attribution
+
+- You must retain all copyright, authorship, and license notices in all copies, substantial portions, or contributions to the Software.
+
+## 5. No Warranty
+
+- The Software is provided “AS IS”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Software or the use or other dealings in the Software.
+
+## 6. Termination
+
+- Any violation of this license results in immediate and automatic termination of your rights under this license.
+- The copyright holder reserves the right to alter, revoke, or relicense the Software at any time.
+
+---
+
+**Summary:**
+This is a source-available, non-OSI-approved license. The code is available for viewing and contribution, but you may not copy, modify, host, or redistribute it elsewhere. Use is limited to the official service and community collaboration.
+
+For further details, questions, or to request additional permissions, please contact the copyright holder.
+
+---
+
+Copyright (c) 2025 Rayko Azcue Pérez (https://github.com/razcue)

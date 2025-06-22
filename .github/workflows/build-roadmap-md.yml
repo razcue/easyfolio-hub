@@ -1,0 +1,44 @@
+name: Build ROADMAP.md
+
+on:
+  push:
+    paths:
+      - 'content/roadmap.json'
+      - 'content/common.json'
+      - 'scripts/build-roadmap-md.js'
+      - 'scripts/update-roadmap-last-updated.js'
+  workflow_dispatch:
+
+jobs:
+  build-roadmap-md:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Check if roadmap.json changed
+        id: roadmap_changed
+        run: |
+          if git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -q '^content/roadmap.json$'; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Update lastUpdated in roadmap.json
+        if: steps.roadmap_changed.outputs.changed == 'true'
+        run: node scripts/update-roadmap-last-updated.js
+
+      - name: Run script to build ROADMAP.md
+        run: node scripts/build-roadmap-md.js
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-update roadmap lastUpdated and build ROADMAP.md"
+          file_pattern: 'content/roadmap.json docs/ROADMAP.md'

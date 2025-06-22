@@ -1,0 +1,142 @@
+{
+  "lastUpdated": "2025-06-11",
+  "quarters": [
+    {
+      "label": "Q3 2025 (July–September)",
+      "sections": [
+        {
+          "title": "Beta Launch",
+          "emoji": "🚀",
+          "items": [
+            "Exportable, themeable, responsive CV template.",
+            "Hydrate CV data from user-submitted JSON files.",
+            "GitHub-based \"Store\" repository as CV database.",
+            "GitHub-based \"Secrets\" private repository as authentication database.",
+            "Home page introducing features.",
+            "How-to guides for Template and Hub.",
+            "Submission form for CV uploads.",
+            "Email feedback on form submission and forgot-secret (secrets are sent only to the user’s email)."
+          ]
+        },
+        {
+          "title": "Community & Feedback",
+          "emoji": "🗣️",
+          "items": [
+            "Open Beta for first users.",
+            "Collect feedback on usability, submission flow, and design."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Q4 2025 (October–December)",
+      "sections": [
+        {
+          "title": "Automation & Flexibility",
+          "emoji": "⚙️",
+          "items": [
+            "Automated deployment scripts and guidelines for GitHub Pages and Vercel.",
+            "Refactor sections as reusable components.",
+            "Allow users to select and populate dynamic sections."
+          ]
+        },
+        {
+          "title": "Hub Improvements",
+          "emoji": "🏠",
+          "items": [
+            "Public CV/portfolio browsing and sharing.",
+            "Home page live demo.",
+            "Publish detailed guides, FAQs, and video walkthroughs."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Q1 2026 (January–March)",
+      "sections": [
+        {
+          "title": "Security & Privacy Improvements",
+          "emoji": "🛡️",
+          "items": [
+            "Allow users to revoke their authentication secrets and temporarily block access to their CV page.",
+            "Add user-friendly privacy settings for data visibility and analytics opt-in/out.",
+            "Save security logs on \"Secrets\" private repository."
+          ]
+        },
+        {
+          "title": "Analytics & Insights",
+          "emoji": "📊",
+          "items": [
+            "In-page statistics (views, shares).",
+            "Integrate with privacy-friendly analytics.",
+            "Home page's stats section (total CVs, views, most viewed/shared profiles, recent activity)."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Q2 2026 (April–June)",
+      "sections": [
+        {
+          "title": "Ecosystem Expansion",
+          "emoji": "🎨",
+          "items": [
+            "Enable community-created themes and templates.",
+            "Allow users to embed third-party profile links (e.g., GitHub, LinkedIn, personal site).",
+            "Publish documentation for template building and contributions."
+          ]
+        },
+        {
+          "title": "Internationalization (i18n)",
+          "emoji": "🌍",
+          "items": [
+            "Add support for multilingual CV and Hub platform.",
+            "Community translation portal for UI and guides."
+          ]
+        }
+      ]
+    }
+  ],
+  "futureIdeas": [
+    {
+      "title": "Advanced Analytics & Engagement",
+      "emoji": "📊",
+      "items": [
+        "Launch statistics dashboard for advanced analytics and insights.",
+        "Aggregate trends, top-used templates and engagement metrics."
+      ]
+    },
+    {
+      "title": "Plugin & Integration Ecosystem",
+      "emoji": "🧩",
+      "items": [
+        "Launch a plugin system for custom fields, analytics, or third-party integrations (e.g., job boards, calendars).",
+        "Enable embeddable CVs/portfolios for external websites and blogs."
+      ]
+    },
+    {
+      "title": "Community & Support",
+      "emoji": "👥",
+      "items": [
+        "Run \"Build Your Theme\" and \"Best Portfolio\" contests.",
+        "Improve support channels and add live chat or discussion forums."
+      ]
+    },
+    {
+      "title": "Performance & Scalability",
+      "emoji": "🚀",
+      "items": [
+        "Optimize static site generation and CDN strategies for faster global loads.",
+        "Accessibility (a11y) audit and improvements."
+      ]
+    },
+    {
+      "title": "Quiz Tests",
+      "emoji": "❓",
+      "items": [
+        "Add quiz support: users can take quiz tests on topics.",
+        "Enable the community to build and update quiz tests following contribution guidelines."
+      ]
+    }
+  ]
+}
