@@ -9,6 +9,9 @@ on:
       - 'scripts/update-roadmap-last-updated.js'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build-roadmap-md:
     runs-on: ubuntu-latest
