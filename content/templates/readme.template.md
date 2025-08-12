@@ -40,12 +40,14 @@ We welcome contributions from the community! To get started:
 
 ## License
 
-This project is distributed under a custom license. The {{projectName}} codebase is publicly viewable and open for community contribution, but **you are not permitted to copy, modify, use, or clone this repository or its codebase for personal or commercial purposes**.
+This project is distributed under a custom source-available license ([Elastic License 2.0, Adapted for EasyFolio Hub](./LICENSE)).
 
+- The {{projectName}} codebase is **publicly viewable and open for community contribution**.
+- **You may not use, host, copy, fork, or create derivative works of this codebase for personal or commercial purposes, except as part of the official EasyFolio Hub platform operated by or on behalf of the Licensor.**
 - You may use the official {{projectName}} platform as a service, suggest improvements, and participate in the community.
-- You may not host, fork, copy, or create derivative works of this codebase.
+- You may submit contributions (pull requests, issues, documentation) in accordance with official contribution guidelines.
 
-Please review the [LICENSE FILE](./LICENSE) for detailed terms and conditions—this is only a summary.
+Please review the [LICENSE file](./LICENSE) for the full terms and conditions — this is only a summary.
 
 ---
 

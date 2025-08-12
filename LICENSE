@@ -1,50 +1,52 @@
-EASYFOLIO HUB CUSTOM LICENSE
-============================
+Elastic License 2.0 (Adapted for EasyFolio Hub)
+===============================================
 
-This license governs the use of the EasyFolio Hub codebase and related materials (the “Software”). Please read it carefully before using, contributing to, or interacting with the Software.
+Licensor: Rayko Azcue Pérez (https://github.com/razcue)
+Software: EasyFolio Hub and all related source code, documentation, and materials (the "Software")
+Date: 2025-08-12
 
 ---
 
-## 1. Grant of Permission
+## 1. License Grant
 
-- The source code of EasyFolio Hub is publicly available for transparency, review, and collaborative contribution.
-- You may use the official EasyFolio Hub platform as a service, submit issues, contribute improvements, and participate in the community.
+Subject to the terms of this license, you are granted a non-exclusive, worldwide, royalty-free license to use, copy, modify, and create derivative works of the Software, solely for non-commercial, non-production, non-hosted purposes such as development, testing, evaluation, and contribution to the official EasyFolio Hub project.
 
 ## 2. Restrictions
 
-- You are **not permitted** to:
-  - Copy, reproduce, or redistribute the Software, in whole or in part, except for submitting contributions or reviews to the official repository.
-  - Modify, fork, create derivative works, or host your own version of the Software or its codebase.
-  - Use the Software, in whole or in part, for any personal or commercial purposes outside of the official EasyFolio platform, unless you have received explicit, written permission from the copyright holder.
+You may **not**:
 
-- You may:
-  - View, review, and suggest improvements to the Software via the official repository.
-  - Submit contributions (pull requests, issues, documentation) in accordance with the official contribution guidelines.
+- Use the Software, in whole or in part, for any commercial purpose.
+- Use the Software, in whole or in part, in production, as a hosted service, or offer it as Software-as-a-Service (SaaS), unless you have received explicit, written permission from the Licensor.
+- Redistribute, sublicense, or provide the Software to third parties except for submitting contributions or reviews to the official repository.
 
-## 3. Commercial Use
+You may:
 
-- Any commercial exploitation, including offering the Software as a service or product, is strictly prohibited without explicit, written consent from the copyright holder.
+- View, review, and suggest improvements to the Software via the official repository.
+- Submit contributions (pull requests, issues, documentation) in accordance with the official contribution guidelines.
 
-## 4. Attribution
+## 3. Attribution
 
-- You must retain all copyright, authorship, and license notices in all copies, substantial portions, or contributions to the Software.
+If you publicly use or modify the Software or create derivative works, you must include a reasonable attribution to the original author, Rayko Azcue Pérez (“razcue”), with a link to their [profile page](https://razcue.github.io/) and the [base repository](https://github.com/razcue/easyfolio-hub) in documentation, credits, or other appropriate places.
+Attribution by visible footer is **recommended** but not strictly required.
 
-## 5. No Warranty
+## 4. Accepting Contributions
 
-- The Software is provided “AS IS”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Software or the use or other dealings in the Software.
+By submitting a contribution (code, documentation, etc.) to the official EasyFolio Hub repository, you grant the Licensor a perpetual, irrevocable, worldwide, royalty-free license to use, modify, and distribute your contribution under the terms of this License.
 
-## 6. Termination
+## 5. Re-licensing
 
-- Any violation of this license results in immediate and automatic termination of your rights under this license.
-- The copyright holder reserves the right to alter, revoke, or relicense the Software at any time.
+By submitting a contribution (code, documentation, or other material) to the official EasyFolio Hub repository, you agree that the Licensor may, at their sole discretion, re-license your contribution, in whole or in part, under any other license terms at any time, including but not limited to more permissive or more restrictive licenses, or as required for transfer of ownership or other business purposes.
+
+## 6. No Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## 7. Termination
+
+Any violation of the terms of this License will result in automatic termination of the rights granted herein.
 
 ---
 
-**Summary:**
-This is a source-available, non-OSI-approved license. The code is available for viewing and contribution, but you may not copy, modify, host, or redistribute it elsewhere. Use is limited to the official service and community collaboration.
-
-For further details, questions, or to request additional permissions, please contact the copyright holder.
-
----
+For more details on the Elastic License 2.0, see [elastic.co/licensing/elastic-license](https://www.elastic.co/licensing/elastic-license).
 
 Copyright (c) 2025 Rayko Azcue Pérez (https://github.com/razcue)
