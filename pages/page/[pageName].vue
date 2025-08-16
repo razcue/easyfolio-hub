@@ -1,6 +1,20 @@
 <script setup lang="ts">
+import {
+  ContactSection,
+  AvailabilitySection,
+  CoverLetterSection,
+  EducationSection,
+  ExperienceSection,
+  InterestSection,
+  LanguagesSection,
+  PortfolioSection,
+  SkillsSection,
+  SummarySection,
+} from "@razcue/easyfolio-shared";
 import { useRoute } from 'vue-router'
+import { useTheme } from "@/composables/useTheme";
 
+const { setTheme } = useTheme();
 const route = useRoute()
 const pageName = route.params.pageName as string
 
@@ -35,20 +49,42 @@ const { data, error, pending } = await useFetch(apiUrl, {
     return data;
   }
 });
+
+onMounted(() => {
+  setTheme("default", "light");
+});
 </script>
 
 <template>
-  <div>
-    <h1>JSON Data: {{ pageName }}</h1>
-    <div v-if="pending">Loading...</div>
-    <div v-else-if="error">
-      <pre class="text-red">{{ error.message }}</pre>
-    </div>
-    <div v-else-if="data">
-      <pre>{{ JSON.stringify(data, null, 2) }}</pre>
-    </div>
-    <div v-else>
-      <p>Not found or invalid JSON.</p>
-    </div>
-  </div>
+  <main class="relative pt-0 pb-14 lg:py-6 max-w-[80vw]">
+    <!-- Contact Info Section -->
+    <ContactSection :contact-data="data.contact" />
+
+    <!-- Summary Section -->
+    <SummarySection :summary-data="data.summary" />
+
+    <!-- Cover Letter Section -->
+    <CoverLetterSection :cover-letter-data="data.coverLetter" />
+
+    <!-- Skills Section -->
+    <SkillsSection :skills-data="data.skills" />
+
+    <!-- Portfolio Section -->
+    <PortfolioSection :portfolio-data="data.portfolio" />
+
+    <!-- Education & Certification Section -->
+    <EducationSection :education-data="data.education" />
+
+    <!-- Languages Section -->
+    <LanguagesSection :language-data="data.languages" />
+
+    <!-- Selected Experience Section -->
+    <ExperienceSection :experience-data="data.experience" />
+
+    <!-- Interests Section -->
+    <InterestSection :interest-data="data.interests" />
+
+    <!-- Availability to Travel Section -->
+    <AvailabilitySection :availability-data="data.availability" />
+  </main>
 </template>

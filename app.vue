@@ -1,6 +1,6 @@
 <template>
   <div
-      class="min-h-screen bg-[var(--color-bg-mute)] text-[var(--color-text)] transition-colors duration-500 font-sans leading-relaxed"
+      class="min-h-screen bg-[var(--color-bg-mute)] text-[var(--color-text)] transition-colors duration-500 font-sans leading-relaxed flex justify-center"
   >
     <NuxtRouteAnnouncer />
     <NuxtPage />
