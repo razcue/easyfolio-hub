@@ -6,4 +6,5 @@ export default defineNuxtConfig({
 	imports: {
 		dirs: ["types"],
 	},
+	css: ["@razcue/easyfolio-shared/dist/bundle.css"],
 });
